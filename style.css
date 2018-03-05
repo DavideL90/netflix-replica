@@ -34,3 +34,15 @@ main #video-container{
 #video-container .thumbnail-video{
   margin: 5px;
 }
+
+/* MEDIA QUERY */
+@media(max-width: 992px) {
+  main #main-image{
+    height: 300px;
+  }
+}
+@media(max-width: 768px) {
+  main #main-image{
+    height: 200px;
+  }
+}
